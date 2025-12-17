@@ -1,0 +1,39 @@
+body {
+background-color:khaki;
+color: #000000;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+.container {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.avatar {
+width: 120px;
+border-radius: 50%;
+border: 3px solid #e94560;
+}
+
+.btn {
+display: block;
+background-color: #16213e;
+color: white;
+padding: 15px;
+margin: 10px 0;
+text-decoration: none;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background-color: #0f3460;
+transform: scale(1.02);
+}
+/* DESAFIO: Estilize o botão especial */
+.destaque {
+    background-color: darkmagenta;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
