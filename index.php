@@ -4,7 +4,7 @@
 $nome = "Amanda";
 
 $bio = "Estudante, 16 anos";
-$imagem = "https://lh3.googleusercontent.com/a/ACg8ocKafQmmMKL0YSbiBuaNT1GVcSoftUT3oDEJKSPrQn0Rnm8akUI=s432-c-no"; // Pegue o link da SUA foto.
+$imagem = "https://lh3.googleusercontent.com/a/ACg8ocKafQmmMKL0YSbiBuaNT1GVcSoftUT3oDEJKSPrQn0Rnm8akUI=s360-p-k-rw-no"; // Pegue o link da SUA foto.
 
 $links = [
 "Instagram" => "https://instagram.com/amandaguerche",
@@ -28,8 +28,7 @@ $links = [
 
 <body>
     <div class="container">
-        <img src="<?php echo $imagem; ?>" alt="Foto de Perfil" class="avat
-ar">
+        <img src="<?php echo $imagem; ?>" alt="Foto de Perfil" class="avatar">
         <h1> <?php echo $nome; ?> </h1>
         <p> <?php echo $bio; ?> </p>
 
@@ -50,6 +49,10 @@ ar">
             }
             ?> 
 
+        </div>
+
+        <div class="area-contato">
+            <a href="contato.php" class="btn-msg">📧 Mandar Mensagem</a>
         </div>
     </div>
 </body>
